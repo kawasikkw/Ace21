@@ -4,17 +4,11 @@ import { useState } from "react";
 
 const SAMPLE_MATCHES = {
   ATP: [
-    { player1: "Novak Djokovic",  player2: "Carlos Alcaraz",    tournament: "Indian Wells Masters", surface: "Hard", conditions: "OUTDOOR", round: "QF"  },
-    { player1: "Jannik Sinner",   player2: "Alexander Zverev",  tournament: "Indian Wells Masters", surface: "Hard", conditions: "OUTDOOR", round: "SF"  },
-    { player1: "Daniil Medvedev", player2: "Stefanos Tsitsipas",tournament: "Indian Wells Masters", surface: "Hard", conditions: "OUTDOOR", round: "R16" },
-    { player1: "Hubert Hurkacz",  player2: "Andrey Rublev",     tournament: "Indian Wells Masters", surface: "Hard", conditions: "OUTDOOR", round: "QF"  },
-    { player1: "Ben Shelton",     player2: "Taylor Fritz",      tournament: "Indian Wells Masters", surface: "Hard", conditions: "OUTDOOR", round: "R16" },
+    { player1: "Novak Djokovic",  player2: "Aleksandar Kovacevic",    tournament: "Indian Wells Masters", surface: "Hard", conditions: "OUTDOOR", round: "QF"  },
   ],
   WTA: [
-    { player1: "Aryna Sabalenka",   player2: "Iga Świątek",         tournament: "Indian Wells Open", surface: "Hard", conditions: "OUTDOOR", round: "SF"  },
-    { player1: "Elena Rybakina",    player2: "Coco Gauff",          tournament: "Indian Wells Open", surface: "Hard", conditions: "OUTDOOR", round: "QF"  },
-    { player1: "Madison Keys",      player2: "Jessica Pegula",      tournament: "Indian Wells Open", surface: "Hard", conditions: "OUTDOOR", round: "QF"  },
-    { player1: "Barbora Krejčíková",player2: "Mirra Andreeva",      tournament: "Indian Wells Open", surface: "Hard", conditions: "OUTDOOR", round: "R16" },
+    { player1: "Maria Sakkari",   player2: "Iga Świątek",         tournament: "Indian Wells Open", surface: "Hard", conditions: "OUTDOOR", round: "SF"  },
+    
   ],
 };
 
